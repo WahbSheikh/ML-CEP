@@ -1,0 +1,42 @@
+{
+  "identity": "b4412709ff303fc0d81f04deb6496d28c7c9865f96155797ad0d0992b17434fe",
+  "winner": "SVM",
+  "rows": [
+    {
+      "model": "Logistic Regression",
+      "candidate": 29,
+      "k": 361,
+      "parameters": "{\"C\": 0.01}",
+      "cv_macro_f1": 0.5477917336201296,
+      "validation_accuracy": 0.49912739965095987,
+      "validation_macro_f1": 0.49298873050372155,
+      "validation_weighted_f1": 0.49339365164600807,
+      "validation_balanced_accuracy": 0.4998408337694052,
+      "train_accuracy": 0.6442027578170518,
+      "train_macro_f1": 0.6421600112647761,
+      "train_weighted_f1": 0.6418488397030486,
+      "train_balanced_accuracy": 0.6451542233572621,
+      "warnings": ""
+    },
+    {
+      "model": "SVM",
+      "candidate": 34,
+      "k": 361,
+      "parameters": "{\"C\": 10, \"gamma\": 0.001}",
+      "cv_macro_f1": 0.5561409951627221,
+      "validation_accuracy": 0.5139616055846422,
+      "validation_macro_f1": 0.5090603327528641,
+      "validation_weighted_f1": 0.5094995210231743,
+      "validation_balanced_accuracy": 0.514464503750218,
+      "train_accuracy": 0.8302583025830258,
+      "train_macro_f1": 0.8298924175063664,
+      "train_weighted_f1": 0.8297695135814104,
+      "train_balanced_accuracy": 0.8310270763997137,
+      "warnings": ""
+    }
+  ],
+  "validation_macro_f1_gain_vs_v2": 0.0,
+  "test_evaluated": false,
+  "personal_voice_evaluated": false,
+  "selection": "Training-only grouped CV per family, then reused validation macro-F1/accuracy/candidate"
+}

@@ -1,0 +1,22 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "captured_utc": "2026-11-07T14:36:02.607525+00:00",
+  "memory_total_gib": 15.710014343261719,
+  "memory_available_gib": 1.0401840209960938,
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "opensmile": "2.6.0",
+    "librosa": "0.11.0",
+    "soundfile": "0.13.1",
+    "nbclient": "0.10.2",
+    "nbformat": "5.10.4",
+    "threadpoolctl": "3.6.0"
+  },
+  "baseline_tests": "9 passed in 23.62s",
+  "static_checks": "ruff E9,F63,F7,F82 passed",
+  "pip_check": "No broken requirements found"
+}

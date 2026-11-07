@@ -1,0 +1,18 @@
+{
+  "repository": "Abdullahnaveed102/Sentiment-Analysis-of-Audio-Recordings",
+  "commit": "69bc3cc3a10d59703eccd3cc04fe6ed308720cba",
+  "files": {
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/Abdullahnaveed102/Sentiment-Analysis-of-Audio-Recordings/69bc3cc3a10d59703eccd3cc04fe6ed308720cba/README.md",
+      "sha256": "c6c53eaa62084807e6ce00f23a500f680c6396697857c6a07abcfa69a04a7cf9"
+    },
+    "Mian_NoteBook.ipynb": {
+      "url": "https://raw.githubusercontent.com/Abdullahnaveed102/Sentiment-Analysis-of-Audio-Recordings/69bc3cc3a10d59703eccd3cc04fe6ed308720cba/Mian_NoteBook.ipynb",
+      "sha256": "848590d32afa213d92c7a40508ea27f86161bfb8e176ff21051d7a14fe0f13fa"
+    },
+    "Final_Report.pdf": {
+      "url": "https://raw.githubusercontent.com/Abdullahnaveed102/Sentiment-Analysis-of-Audio-Recordings/69bc3cc3a10d59703eccd3cc04fe6ed308720cba/Final_Report.pdf",
+      "sha256": "c207d63ff03ac2895567d4289c10cb22c7e6d735690a4e574701fa44981dba7f"
+    }
+  }
+}

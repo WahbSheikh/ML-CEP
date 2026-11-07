@@ -1,0 +1,159 @@
+key,representation,candidate,model,lda,cv_macro_f1,cv_std,fold_scores,seconds,warnings,specification
+egemaps-0,egemaps,0,KNN,True,0.43124647378320424,0.009984587439937433,"[0.4241981586106165, 0.42417445661444925, 0.4453668061245471]",1.8584066999901552,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier', KNeighborsClassifier(n_jobs=1, n_neighbors=9))])"
+egemaps-1,egemaps,1,KNN,True,0.45212758668599845,0.013006730183744339,"[0.4476725623782764, 0.438899448936918, 0.4698107487428009]",1.2351685999892652,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier', KNeighborsClassifier(n_jobs=1, n_neighbors=21))])"
+egemaps-2,egemaps,2,Logistic Regression,False,0.4760834945235019,0.008829207792587607,"[0.4681464303913492, 0.47170429485643034, 0.48839975832272625]",0.48758539999835193,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 LogisticRegression(C=0.01, max_iter=1500, random_state=42))])"
+egemaps-3,egemaps,3,Logistic Regression,False,0.49507061115958617,0.005729115361363197,"[0.4928576485848734, 0.48942718565366733, 0.5029269992402177]",0.8064078000024892,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 LogisticRegression(C=0.1, max_iter=1500, random_state=42))])"
+egemaps-4,egemaps,4,Logistic Regression,False,0.4955667361401743,0.005932947714864318,"[0.4916744979992986, 0.491075645832939, 0.5039500645882855]",1.5041543999977876,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 LogisticRegression(C=1, max_iter=1500, random_state=42))])"
+egemaps-5,egemaps,5,Logistic Regression,True,0.45978365115140035,0.019919720251386264,"[0.43924265867282014, 0.45335853109968705, 0.48674976368169376]",0.3531522999983281,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 LogisticRegression(C=0.01, max_iter=1500, random_state=42))])"
+egemaps-6,egemaps,6,Logistic Regression,True,0.4584034246887833,0.018222434475476917,"[0.4517448404761903, 0.44017272793765155, 0.48329270565250804]",0.33636099999421276,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 LogisticRegression(C=0.1, max_iter=1500, random_state=42))])"
+egemaps-7,egemaps,7,Logistic Regression,True,0.4560776902362727,0.017331898294019217,"[0.4516185547612503, 0.43743432979341385, 0.479180186154154]",0.3471846999891568,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 LogisticRegression(C=1, max_iter=1500, random_state=42))])"
+egemaps-8,egemaps,8,GaussianNB,True,0.43019568251953144,0.023509373189941077,"[0.40509338915396653, 0.4238671551448066, 0.4616265032598213]",0.2903200000000652,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier', GaussianNB())])"
+egemaps-9,egemaps,9,GaussianNB,True,0.43019568251953144,0.023509373189941077,"[0.40509338915396653, 0.4238671551448066, 0.4616265032598213]",0.2940770999994129,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier', GaussianNB(var_smoothing=1e-05))])"
+egemaps-10,egemaps,10,SVM,False,0.4798250213254114,0.014418583645375493,"[0.4738977750909578, 0.4658920724363065, 0.49968521644896985]",6.785858300019754,,"Pipeline(steps=[('scale', StandardScaler()), ('kernel', TrainingRBFKernel()),
+                ('classifier', SVC(C=1, cache_size=128, kernel='precomputed'))])"
+egemaps-11,egemaps,11,SVM,False,0.42750668646623,0.010996473273518562,"[0.4166962972073787, 0.4232301844604116, 0.44259357773089975]",3.878384899988305,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('kernel', TrainingRBFKernel(gamma=0.001)),
+                ('classifier', SVC(C=1, cache_size=128, kernel='precomputed'))])"
+egemaps-12,egemaps,12,SVM,False,0.4849767193941808,0.006365802930928966,"[0.49381444753898146, 0.47907256364601963, 0.4820431469975413]",3.5409325000073295,,"Pipeline(steps=[('scale', StandardScaler()), ('kernel', TrainingRBFKernel()),
+                ('classifier',
+                 SVC(C=10, cache_size=128, kernel='precomputed'))])"
+egemaps-13,egemaps,13,SVM,False,0.48985925333448727,0.009869383733627569,"[0.4846708034818028, 0.4812321996341746, 0.5036747568874844]",6.144919999991544,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('kernel', TrainingRBFKernel(gamma=0.001)),
+                ('classifier',
+                 SVC(C=10, cache_size=128, kernel='precomputed'))])"
+egemaps-14,egemaps,14,SVM,False,0.4541820421652021,0.009025608679524708,"[0.4584871543879821, 0.4624358266505742, 0.4416231454570499]",7.671352600009413,,"Pipeline(steps=[('scale', StandardScaler()), ('kernel', TrainingRBFKernel()),
+                ('classifier',
+                 SVC(C=100, cache_size=128, kernel='precomputed'))])"
+egemaps-15,egemaps,15,SVM,False,0.5026439465507667,0.003399319396911847,"[0.49894133137081736, 0.5018398748523462, 0.5071506334291366]",4.269314499979373,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('kernel', TrainingRBFKernel(gamma=0.001)),
+                ('classifier',
+                 SVC(C=100, cache_size=128, kernel='precomputed'))])"
+egemaps-16,egemaps,16,MLP,False,0.4599582394271011,0.008401693700492362,"[0.4656137524504102, 0.4480809489557487, 0.4661800168751445]",50.09869230000186,Stochastic Optimizer: Maximum iterations (300) reached and the optimization hasn't converged yet.,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 MLPClassifier(alpha=0.01, hidden_layer_sizes=(64,),
+                               max_iter=300, random_state=42))])"
+egemaps-17,egemaps,17,MLP,False,0.506078851829716,0.0032074564280412427,"[0.5098846238503378, 0.5020385048017574, 0.506313426837053]",33.7274488999974,Stochastic Optimizer: Maximum iterations (300) reached and the optimization hasn't converged yet.,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 MLPClassifier(alpha=1, hidden_layer_sizes=(64,), max_iter=300,
+                               random_state=42))])"
+egemaps-18,egemaps,18,MLP,True,0.471229320969153,0.015560968017991809,"[0.4640658210317062, 0.4567908381433175, 0.4928313037324353]",17.969495099998312,Stochastic Optimizer: Maximum iterations (300) reached and the optimization hasn't converged yet.,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 MLPClassifier(alpha=0.01, hidden_layer_sizes=(64,),
+                               max_iter=300, random_state=42))])"
+egemaps-19,egemaps,19,MLP,True,0.466549096153807,0.016587549370168788,"[0.4571702503622821, 0.4526173448149576, 0.4898596932841815]",12.601652400015155,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 MLPClassifier(alpha=1, hidden_layer_sizes=(64,), max_iter=300,
+                               random_state=42))])"
+fusion-0,fusion,0,KNN,True,0.5220815574273412,0.0036717020902460457,"[0.5268661481747111, 0.5179420176819634, 0.5214365064253492]",2.8491788000101224,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier', KNeighborsClassifier(n_jobs=1, n_neighbors=9))])"
+fusion-1,fusion,1,KNN,True,0.533955287601087,0.0012881936756261678,"[0.5321923917841618, 0.5344388496303261, 0.5352346213887732]",8.297966300015105,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier', KNeighborsClassifier(n_jobs=1, n_neighbors=21))])"
+fusion-2,fusion,2,Logistic Regression,False,0.5477917336201296,0.002718778255641207,"[0.5476549513839027, 0.5511878267636519, 0.544532422712834]",6.013319299992872,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 LogisticRegression(C=0.01, max_iter=1500, random_state=42))])"
+fusion-3,fusion,3,Logistic Regression,False,0.5448173207991073,0.007891223821239243,"[0.5397568536091151, 0.5559615473102602, 0.5387335614779465]",17.204110999999102,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 LogisticRegression(C=0.1, max_iter=1500, random_state=42))])"
+fusion-4,fusion,4,Logistic Regression,False,0.5331916247474869,0.008569022250604253,"[0.5218633632598432, 0.5425833662874759, 0.5351281446951416]",27.882269699999597,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 LogisticRegression(C=1, max_iter=1500, random_state=42))])"
+fusion-5,fusion,5,Logistic Regression,True,0.5458093539814447,0.0012345981832602457,"[0.546716556524716, 0.5466476840819321, 0.5440638213376859]",2.651973900006851,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 LogisticRegression(C=0.01, max_iter=1500, random_state=42))])"
+fusion-6,fusion,6,Logistic Regression,True,0.5465536943783232,0.005081291268907004,"[0.5536895974178666, 0.5437195325401921, 0.5422519531769109]",6.600244600005681,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 LogisticRegression(C=0.1, max_iter=1500, random_state=42))])"
+fusion-7,fusion,7,Logistic Regression,True,0.5460249702974741,0.005114791542708486,"[0.5531802030093523, 0.5433658431451706, 0.5415288647378996]",2.895579500007443,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 LogisticRegression(C=1, max_iter=1500, random_state=42))])"
+fusion-8,fusion,8,GaussianNB,True,0.5376929892681704,0.008358529410311398,"[0.5319180276410349, 0.531648231588035, 0.5495127085754415]",3.212185699987458,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier', GaussianNB())])"
+fusion-9,fusion,9,GaussianNB,True,0.5376929892681704,0.008358529410311398,"[0.5319180276410349, 0.531648231588035, 0.5495127085754415]",2.5155823999957647,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier', GaussianNB(var_smoothing=1e-05))])"
+fusion-10,fusion,10,SVM,False,0.5330090840071074,0.010066012855473051,"[0.5205725799751703, 0.5332284238043875, 0.5452262482417646]",12.3498888000031,,"Pipeline(steps=[('scale', StandardScaler()), ('kernel', TrainingRBFKernel()),
+                ('classifier', SVC(C=1, cache_size=128, kernel='precomputed'))])"
+fusion-11,fusion,11,SVM,False,0.5172232329611854,0.016530415175578315,"[0.5062963622337965, 0.5047887756864803, 0.5405845609632797]",10.729426000005333,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('kernel', TrainingRBFKernel(gamma=0.001)),
+                ('classifier', SVC(C=1, cache_size=128, kernel='precomputed'))])"
+fusion-12,fusion,12,SVM,False,0.5437819572789846,0.009267502506282421,"[0.5508272968475144, 0.5498301963767961, 0.5306883786126434]",12.607135899976129,,"Pipeline(steps=[('scale', StandardScaler()), ('kernel', TrainingRBFKernel()),
+                ('classifier',
+                 SVC(C=10, cache_size=128, kernel='precomputed'))])"
+fusion-13,fusion,13,SVM,False,0.5561409951627221,0.007693516671785242,"[0.5605900976469522, 0.5625152469467364, 0.5453176408944779]",5.6586174000112806,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('kernel', TrainingRBFKernel(gamma=0.001)),
+                ('classifier',
+                 SVC(C=10, cache_size=128, kernel='precomputed'))])"
+fusion-14,fusion,14,SVM,False,0.533227603567115,0.007790581151696338,"[0.5423833498162954, 0.533957174741546, 0.5233422861435035]",10.25306260000798,,"Pipeline(steps=[('scale', StandardScaler()), ('kernel', TrainingRBFKernel()),
+                ('classifier',
+                 SVC(C=100, cache_size=128, kernel='precomputed'))])"
+fusion-15,fusion,15,SVM,False,0.530634326460241,0.011975459546900892,"[0.5340340566133266, 0.5433027884680821, 0.5145661342993143]",7.439887700020336,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('kernel', TrainingRBFKernel(gamma=0.001)),
+                ('classifier',
+                 SVC(C=100, cache_size=128, kernel='precomputed'))])"
+fusion-16,fusion,16,MLP,False,0.5055107316290935,0.012731747093000347,"[0.497026218732852, 0.52350638244898, 0.4959995937054484]",59.05900740000652,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 MLPClassifier(alpha=0.01, hidden_layer_sizes=(64,),
+                               max_iter=300, random_state=42))])"
+fusion-17,fusion,17,MLP,False,0.5339955420195771,0.013879136591796907,"[0.5246231756019584, 0.5536170762319971, 0.5237463742247758]",44.80688129999908,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('classifier',
+                 MLPClassifier(alpha=1, hidden_layer_sizes=(64,), max_iter=300,
+                               random_state=42))])"
+fusion-18,fusion,18,MLP,True,0.547959643283045,0.0037998845848147217,"[0.5443335655099497, 0.5532074098552275, 0.5463379544839576]",32.52299599998514,Stochastic Optimizer: Maximum iterations (300) reached and the optimization hasn't converged yet.,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 MLPClassifier(alpha=0.01, hidden_layer_sizes=(64,),
+                               max_iter=300, random_state=42))])"
+fusion-19,fusion,19,MLP,True,0.5487892876935397,0.0033353412420297937,"[0.5506876335560685, 0.5515796286398859, 0.5441006008846647]",22.376080599991838,,"Pipeline(steps=[('scale', StandardScaler()),
+                ('lda',
+                 LinearDiscriminantAnalysis(shrinkage='auto', solver='eigen')),
+                ('classifier',
+                 MLPClassifier(alpha=1, hidden_layer_sizes=(64,), max_iter=300,
+                               random_state=42))])"

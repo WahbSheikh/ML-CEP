@@ -1,0 +1,8 @@
+{
+  "training_clips": 5149,
+  "training_actors": 63,
+  "feature_count": 361,
+  "feature_pairs_abs_correlation_above_0_95": 794,
+  "zero_variance_columns": 0,
+  "warning": "Correlations are computed on training clips only; redundancy is not proof of causation."
+}

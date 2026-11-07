@@ -1,0 +1,32 @@
+{
+  "winner": "fusion-13",
+  "baseline_winner": "SVM",
+  "validation_macro_f1_gain": 0.010795449185086459,
+  "validation_accuracy_gain": 0.012216404886561949,
+  "reused_test_macro_f1_gain": 0.023249749620979254,
+  "reused_test_accuracy_gain": 0.024561403508771895,
+  "validation_paired_interval": {
+    "resamples": 1000,
+    "unit": "paired actor",
+    "accuracy_difference_95": [
+      -0.0026224924375099295,
+      0.02700348432055749
+    ],
+    "macro_f1_difference_95": [
+      -0.006505621646060594,
+      0.024927317148018366
+    ]
+  },
+  "test_paired_interval": {
+    "resamples": 1000,
+    "unit": "paired actor",
+    "accuracy_difference_95": [
+      -0.000872676758878052,
+      0.04825898587933251
+    ],
+    "macro_f1_difference_95": [
+      -0.0024299019284275574,
+      0.04740824941843105
+    ]
+  }
+}

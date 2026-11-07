@@ -1,0 +1,1 @@
+Core CEP evidence remains in the original notebook/report/KT. Optional extension evidence is supplemental. The combined report is reports/CEP_REPORT_WITH_OPTIONAL_EXTENSIONS.md; combined KT is docs/KT_FULL_WITH_OPTIONAL_EXTENSIONS.html. Original files are untouched. Both successes and failures are reported.

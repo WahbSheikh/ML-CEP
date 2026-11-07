@@ -1,0 +1,14 @@
+{
+  "baseline_files_preserved": 55,
+  "fixed_actor_disjoint_split": {
+    "test": 14,
+    "train": 63,
+    "validation": 14
+  },
+  "three_grouped_folds_disjoint": true,
+  "validation_only_winner_and_complete_search": true,
+  "all_ten_models_training_only_scaling_and_kernel": true,
+  "raw_wav_cache_and_saved_inference_agree": true,
+  "five_families_evaluated_after_freeze": true,
+  "baseline_files_preserved_after_checks": 55
+}

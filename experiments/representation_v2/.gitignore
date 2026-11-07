@@ -1,0 +1,4 @@
+*.joblib
+*.npz
+*.partial
+__pycache__/
