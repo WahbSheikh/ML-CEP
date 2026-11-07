@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/naweedfatima03/SentimentAnalysisDataset",
+  "commit": "8c764b0b778f90c8b60484afe21715c899d35663",
+  "wav_count": 7442,
+  "download_method": "individual immutable blobs; every Git blob SHA-1 verified",
+  "total_bytes": 605899936
+}

@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "sample_rate": 16000,
+    "cutoff_hz": 5000,
+    "filter_order": 4,
+    "frame_length": 512,
+    "hop_length": 160,
+    "mfcc_count": 20,
+    "mel_count": 40,
+    "version": "original-v1"
+  },
+  "extractor_sha256": "b367b146293b7c35da00917b5a2e314a870a1553fcf4a2ab8984bf231c289ffc",
+  "manifest_sha256": "16175a8bfa8d19aa96944fad1c6afec6854b3099eaa38a3fb8462d61a896c0ad"
+}
